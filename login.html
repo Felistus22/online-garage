@@ -9,43 +9,28 @@
 </head>
 <body>
     <form action="results.html" method="GET">
-        <p>SIGN UP FORM</p>
-        <div>
-            <label for="country">Your Role</label>
-            <input list="role">
-            <datalist id="role">
-                <option value="Customer"> 
-                <option value="Staff">           
-            </datalist><br>
-        </div>
-        
-        <div>
-            <label for="firstName"> First Name</label>
-            <input type="text" name="firstName" id="firstName" required>
-        </div><br>
-        <div>
-            <label for="lastName">Last Name</label>
-            <input type="text" name="lastName" id="lastName" required>
-        </div><br>
-        <div>
-            <label for="email"> Email</label>
-            <input type="email" name="email" id="email" required>
-        </div><br>
-        
-         <div>
-            <label for="telephone">Telephone</label>
-            <input type="tel" name="telephone" id="telephone">
-        </div><br>
-        <div>
-            <label for="password"> Password</label>
-            <input type="password" name="password" required>
-        </div><br>
-        <div>
-            <label for="password"> Confirm Password</label>
-            <input type="password" name="password" required>
-        </div><br> 
-        <button for="reset"><b>Reset</b></button>
-        <button for="submit"><b>Submit</b></button> 
+        <div class="container">
+            <p>SIGN UP FORM</p>
+            <div>
+                <label for="country">User Role</label>
+                <input list="role">
+                <datalist id="role">
+                    <option value="Customer"> 
+                    <option value="Staff">           
+                </datalist><br>
+            </div>
+            
+            <div>
+                <label for="email"> Email</label>
+                <input type="email" name="email" id="email" required>
+            </div><br>
+            <div>
+                <label for="password"> Password</label>
+                <input type="password" name="password" required>
+            </div><br>
+            
+            <button><b>LOGIN</b></button>
+        </div> 
     </form>
     <table>
         
